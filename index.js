@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const body = document.querySelector('.clock-container');
 
 function showTime() {
     var date = new Date();
@@ -6,12 +6,12 @@ function showTime() {
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
     var session = "AM";
-    body.style.backgroundColor = white;
+    body.style.backgroundColor = 'white';
 
     if (hours > 12) {
         hours = hours - 12;
         session = "PM";
-        body.style.backgroundColor = black;
+        body.style.backgroundColor = 'black';
     }
 
     if (hours == 0) {

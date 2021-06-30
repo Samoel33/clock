@@ -7,14 +7,13 @@
 }
 
 body {
-    background-color: black;
     box-sizing: border-box;
     padding: 3rem auto;
     margin: 3rem auto;
 }
 
 .heading {
-    color: white;
+    color: brown;
     font-size: 3rem;
     font-weight: 800;
 }
@@ -23,7 +22,6 @@ body {
     text-align: center;
     height: 100vh;
     width: 100%;
-    background-color: black;
 }
 
 .clock {
