@@ -6,15 +6,16 @@ function showTime() {
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
     var session = "AM";
-
+    body.style.backgroundColor = white;
 
     if (hours > 12) {
         hours = hours - 12;
         session = "PM";
-        body
+        body.style.backgroundColor = black;
     }
 
     if (hours == 0) {
+
         hours = 12;
     }
 
